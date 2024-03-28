@@ -1,0 +1,36 @@
+
+
+@font-face {font-family: Mofulina; src: url('assets/mofulina/Mofulina.otf'); } 
+
+.wrapper{
+	margin:0 auto;
+	text-align:center;
+        background-image: linear-gradient(45deg, #fa0, #acf);
+}
+
+div{
+}
+h1{
+	font-family:Mofulina;
+	font-size:10em;
+	font-weight:100;
+	text-shadow:1px 1px 1px #777;
+}
+h1:hover{
+	font-size:9.90em;
+}
+h1:active{
+	opacity:50%;
+	text-shadow:1px 1px 10px #eee;
+}
+
+.octoCat{
+	height:8em;width:8em;
+}
+
+.codePenLogo img{
+		height:8em;width:8em;
+	}
+.codePenLogo:hover{
+		rotate:100deg;
+	}
