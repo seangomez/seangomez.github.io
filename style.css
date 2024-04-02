@@ -22,7 +22,7 @@ h1{
 	padding:5em
 }
 .space img{
-	height:inherit; width:inherit;
+	height:7em; width:7em;
 	background:transparent;
 }
 .linkedInLogo:hover, .octoCat:hover, .codePenLogo:hover{
