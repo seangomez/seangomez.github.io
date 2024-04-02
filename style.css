@@ -1,36 +1,33 @@
-
+body{
+	height:100%;
+}
 
 @font-face {font-family: Mofulina; src: url('assets/mofulina/Mofulina.otf'); } 
 
 .wrapper{
 	margin:0 auto;
 	text-align:center;
-        background-image: linear-gradient(45deg, #fa0, #acf);
+	height:50em;
+        background-image:linear-gradient(45deg, #fa0, #acf);
 }
 
-div{
-}
 h1{
 	font-family:Mofulina;
 	font-size:10em;
+	opacity:85%;
+	color:#fef0fa;
 	font-weight:100;
-	text-shadow:1px 1px 1px #777;
+	text-shadow:1px 1px 1px #ddd;
 }
-h1:hover{
-	font-size:9.90em;
+.space a{	
+	margin:2em;
+	height:7em; width:7em;
+	padding:5em
 }
-h1:active{
-	opacity:50%;
-	text-shadow:1px 1px 10px #eee;
+.space img{
+	height:inherit; width:inherit;
+	background:transparent;
 }
-
-.octoCat{
-	height:8em;width:8em;
+.linkedInLogo:hover, .octoCat:hover, .codePenLogo:hover{
+	height:7.2em;width:7.2em;
 }
-
-.codePenLogo img{
-		height:8em;width:8em;
-	}
-.codePenLogo:hover{
-		rotate:100deg;
-	}
